@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream
 <testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
@@ -117,5 +118,58 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- validateLogin -->
       </class> <!-- com.CRM.TestCase.LoginPageTestCase -->
     </test> <!-- LoginPageTest -->
+=======
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-08T19:52:46 IST" name="Suite" finished-at="2026-06-08T19:53:07 IST" duration-ms="21215">
+    <groups>
+    </groups>
+    <test started-at="2026-06-08T19:52:46 IST" name="EdgeTest" finished-at="2026-06-08T19:52:52 IST" duration-ms="6452">
+      <class name="seleniumGrid.ParallelTest">
+        <test-method signature="crossBrowserTest(java.lang.String)[pri:0, instance:seleniumGrid.ParallelTest@6f03482]" started-at="2026-06-08T19:52:46 IST" name="crossBrowserTest" finished-at="2026-06-08T19:52:52 IST" duration-ms="6359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTest -->
+      </class> <!-- seleniumGrid.ParallelTest -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2026-06-08T19:52:46 IST" name="ChromeTest" finished-at="2026-06-08T19:53:03 IST" duration-ms="17357">
+      <class name="seleniumGrid.ParallelTest">
+        <test-method signature="crossBrowserTest(java.lang.String)[pri:0, instance:seleniumGrid.ParallelTest@34a3d150]" started-at="2026-06-08T19:52:46 IST" name="crossBrowserTest" finished-at="2026-06-08T19:53:03 IST" duration-ms="17279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTest -->
+      </class> <!-- seleniumGrid.ParallelTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2026-06-08T19:52:46 IST" name="FirefoxTest" finished-at="2026-06-08T19:53:07 IST" duration-ms="21215">
+      <class name="seleniumGrid.ParallelTest">
+        <test-method signature="crossBrowserTest(java.lang.String)[pri:0, instance:seleniumGrid.ParallelTest@1e800aaa]" started-at="2026-06-08T19:52:46 IST" name="crossBrowserTest" finished-at="2026-06-08T19:53:07 IST" duration-ms="21138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTest -->
+      </class> <!-- seleniumGrid.ParallelTest -->
+    </test> <!-- FirefoxTest -->
+>>>>>>> Stashed changes
   </suite> <!-- Suite -->
 </testng-results>

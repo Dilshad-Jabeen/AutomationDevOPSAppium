@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.CRM.TestCase.LoginPageTestCase">
+      <class name="seleniumGrid.ParallelTest">
         <methods>
-          <include name="setup"/>
-          <include name="validateLogin"/>
-          <include name="pageSetup"/>
+          <include name="crossBrowserTest"/>
         </methods>
-      </class> <!-- com.CRM.TestCase.LoginPageTestCase -->
+      </class> <!-- seleniumGrid.ParallelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
